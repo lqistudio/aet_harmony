@@ -429,3 +429,17 @@ body.theme-light .back-to-top {
   border-color: rgba(0, 159, 102, 0.5);
 }
 
+/* Fuerza que el modo oscuro sea siempre el default */
+body:not(.theme-light) {
+  --bg-main: #020608;
+  --bg-card: #050b0f;
+  --bg-card-soft: #050f13;
+  --accent: #36ffb5;
+  --accent-soft: rgba(54, 255, 181, 0.2);
+  --accent-strong: #64ffd1;
+  --text-main: #e5f7f0;
+  --text-muted: #7aa59a;
+  --border-subtle: rgba(54, 255, 181, 0.25);
+  --shadow-soft: 0 0 20px rgba(0, 255, 170, 0.15);
+}
+
