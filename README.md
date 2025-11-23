@@ -1,6 +1,6 @@
 AET_HARMONY — Libro Sagrado
 
-Creado por cb4s_ | LQISTUDIO
+Creado por LQI | cb4s_ | LQISTUDIO
 
 AET_HARMONY es un idioma creado como sistema de cifrado para transformar textos, números, notas musicales y símbolos en una estructura lógica, coherente y organizada.
 Este repositorio contiene la documentación oficial del idioma, incluyendo su códice, normas de escritura y metodología.
