@@ -341,3 +341,91 @@ code {
     padding-inline: 1rem;
   }
 }
+
+/* ============================================
+   TEMA CLARO — ACTIVADO POR: body.theme-light
+   Estilo Ciber–Místico Verde (Modo Claro)
+   ============================================ */
+
+body.theme-light {
+  --bg-main: #f7fffb;
+  --bg-card: #ffffff;
+  --bg-card-soft: #e8fff4;
+  --accent: #009f66;
+  --accent-soft: rgba(0, 159, 102, 0.25);
+  --accent-strong: #00c47f;
+  --text-main: #0f1a16;
+  --text-muted: #4b6d62;
+  --border-subtle: rgba(0, 159, 102, 0.25);
+  --shadow-soft: 0 0 18px rgba(0, 120, 70, 0.15);
+}
+
+body.theme-light {
+  background: radial-gradient(circle at top left, #ffffff 0, #e5fff2 50%, #d8f5e8 100%);
+  color: var(--text-main);
+}
+
+/* Header y navegación */
+body.theme-light .site-header {
+  background: rgba(230, 255, 245, 0.9);
+  border-color: var(--border-subtle);
+  box-shadow: 0 0 12px rgba(0, 159, 102, 0.28);
+}
+
+body.theme-light .main-nav {
+  background: rgba(240, 255, 250, 0.85);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+body.theme-light .main-nav a {
+  color: var(--text-muted);
+}
+
+body.theme-light .main-nav a:hover {
+  color: var(--accent-strong);
+  background: rgba(0, 159, 102, 0.18);
+}
+
+/* Botón de tema */
+body.theme-light .theme-toggle {
+  background: radial-gradient(circle at 40% 30%, rgba(0, 159, 102, 0.25), #ffffff);
+  color: #00784c;
+  border-color: rgba(0, 159, 102, 0.4);
+  box-shadow: 0 0 16px rgba(0, 159, 102, 0.4);
+}
+
+/* Tarjetas (secciones) */
+body.theme-light .card {
+  background: radial-gradient(circle at top left, #ffffff, #ecfff6 80%);
+  border-color: var(--border-subtle);
+  box-shadow: 0 0 20px rgba(0, 159, 102, 0.15);
+}
+
+body.theme-light .card-header {
+  background: linear-gradient(120deg, #d9fff0, #f2fff9);
+  color: var(--text-main);
+}
+
+body.theme-light .card-body {
+  color: var(--text-main);
+}
+
+body.theme-light code {
+  background: #e4fff2;
+  color: #00784c;
+  border-color: rgba(0, 159, 102, 0.45);
+}
+
+/* Footer */
+body.theme-light .site-footer {
+  background: rgba(235, 255, 245, 0.7);
+  border-top-color: var(--border-subtle);
+}
+
+/* Botón volver arriba */
+body.theme-light .back-to-top {
+  background: radial-gradient(circle at 20% 20%, #00c47f, #eafff5);
+  color: #003722;
+  border-color: rgba(0, 159, 102, 0.5);
+}
+
